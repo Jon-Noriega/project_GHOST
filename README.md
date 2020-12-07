@@ -1,4 +1,4 @@
-<h1>skiHouse</h1>
+<h1>swiftly</h1>
 Rally your friends, select from one of the US-Rockies' many world-reknown ski resorts, and book your priority reservation dates.
 <br></br>
 <h2>General Info</h2>
@@ -51,7 +51,87 @@ You are now ready to start using the first iteration of skiHouse<br>
 
 <h2>Code Examples</h2>
 
+<h4>Hooks: Setting Interval & Message Expiration Class</h4>
 
+```
+const [seconds, setSeconds] = useState(10)
+const [expired, setExpired] = useState(false)
+
+const status = expired ? "expired" : "active"
+
+useEffect(() => {
+        
+  const interval = setInterval(() => {
+     if(seconds !== 0){
+        setSeconds(seconds - 1)
+     }
+     else {  
+        setExpired(true)
+     }
+   }, 1000)
+   return () => clearInterval(interval)
+}, [seconds] )
+```
+
+<h4>Event Message Rendering</h4>
+
+```
+return (
+        
+   <div className={`message ${fromMe}`}>
+
+      <div id={`message-username ${status}`} className={`message-username ${fromMe}`}>
+         { props.username }
+      </div>
+
+      {messageType === "text"
+         ?
+            <div className={`text-message-body ${fromMe}`}>
+               <p>{ textInput }</p>
+            </div>
+         :
+         <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
+            <div className={`event-message-body ${status}`}>
+
+               <Button
+                  variant="outline-light" size="sm" className="countdown-button">
+                     <span className={`event-message-countdown`}>{ seconds }</span>
+               </Button><br></br>
+
+                  <br></br>
+                  <p>{eventNameInput}</p>
+                  <p>{locationInput}</p>
+                  <p>{timeInput}</p>
+            </div>
+         </Animated>
+      }
+      
+   </div>
+```
+
+<h4>Event Message Styling: Disappear Upon Interval Expiration</h4>
+
+```
+.event-message-body.active{
+    font-family: 'Roboto', sans-serif;
+    width: auto;
+    height: auto;
+    background-color: rgb(201, 47, 47);
+    color: white;
+    padding: 20px;
+    border-style: double;
+    border-color: white;
+    border-radius: 50px 50px 50px 50px;
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: flash;
+    animation-duration: 10s;
+}
+
+.event-message-body.expired{
+    display: none;
+}
+```
 
 <h2>Status</h2>
 
