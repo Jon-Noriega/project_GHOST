@@ -34,11 +34,11 @@ From your backend folder perform the following commands:<br>
 <li><code>npm init -y</code></li>
 <li><code>npm install express</code></li>
 <li><code>npm install socket.io</code></li>
-<li><code>npm i -g http-server</code></li><br>
+<li><code>npm i -g http-server</code></li>
 <li><code>node index.js</code></li><br>
 From your frontend folder perform the following commands:<br>
 <li><code>npm i socket.io-client</code></li>
-<li><code>npm start</code></li>
+<li><code>npm start</code></li><br>
 You are now ready to start using the first iteration of swiftly<br>
 
 <h2>Instructions</h2>
