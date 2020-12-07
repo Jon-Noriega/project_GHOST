@@ -20,12 +20,12 @@ I was inpired to create this project by the excitement of the upcoming ski seaso
 <h2>Technologies</h2>
 
 <ul>
- <li>Ruby: version 2.6.1</li>
- <li>Rails: version 6.0.3</li>
- <li>SQLite3: version 1.4</li>
- <li>Puma: version 4.1</li>
+ <li>React: version 17.0.1</li>
+ <li>Express.js: version 4.17.1</li>
+ <li>Socket.io: version 3.0.3</li>
+ <li>Bootstrap: version 4.5.3</li>
+ <li>Animate.css: version 4.1.1</li>
  <li>JavaScript: version 1.1.1</li>
- <li>JSON: version 2.3</li>
 </ul>
 
 <h2>Setup</h2>
