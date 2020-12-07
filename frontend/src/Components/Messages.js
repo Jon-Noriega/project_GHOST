@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Message from "./Message"
+// import {Animated} from "react-animated-css";
 
 export default class Messages extends Component {
     
@@ -23,7 +24,7 @@ export default class Messages extends Component {
 
     render() {
         return (
-            <div className="messages" id="messageList">
+            <div className="messages-container" id="messageList">
                 { this.messages() }
             </div>
         )

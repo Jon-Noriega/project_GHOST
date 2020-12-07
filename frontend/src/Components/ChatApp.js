@@ -3,6 +3,7 @@ import Messages from "./Messages"
 import ChatInput from "./ChatInput"
 import io from 'socket.io-client';
 import '../Styling/ChatApp.css'
+import {Animated} from "react-animated-css";
 
 const api = "http://localhost:4000"
 
@@ -14,16 +15,15 @@ export default class ChatApp extends Component {
         super(props)
         this.socket = io(api).connect()
         this.socket.on('server:message', message => {
-            // console.log(message)
-            this.addMessage(message);
+            this.addMessage(message)
         })
     }
 
     state = {
-        messages: [],
+        messages: []
     }
     
-    sendHandler = (message) => {
+    sendMessageHandler = (message) => {
         const messageObject = {
             username: this.props.username,
             message
@@ -33,16 +33,23 @@ export default class ChatApp extends Component {
     }
     
     addMessage = (message) => {
-        return this.setState({ messages: [...this.state.messages, message] })
+        return this.setState({ messages: [...this.state.messages, message]})
     }
     
     render() {
         return (
-            <div className="container">
-                <h3>project_GHOST</h3>
+
+            <div className="main-container">
+
+            <Animated animationIn="bounceInLeft" isVisible={true}>
+                <h3 className="chat-app-header">swiftly</h3>
+            </Animated>
+
                 <Messages username={this.props.username} messages={ this.state.messages }/>
-                <ChatInput onSend={ this.sendHandler }/>
+                <ChatInput sendMessage={ this.sendMessageHandler }/>
+
             </div>
+
         )
     }
 }

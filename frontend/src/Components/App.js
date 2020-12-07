@@ -2,6 +2,7 @@ import { render } from '@testing-library/react';
 import { Component } from 'react';
 import '../Styling/App.css';
 import ChatApp from "./ChatApp"
+// import {Animated} from "react-animated-css";
 
 export default class App extends Component {
 
@@ -25,11 +26,11 @@ export default class App extends Component {
     }
 
     return (
-      <div className="App">
+      <div className="app">
+        <h1 className="app-header">swiftly</h1>
         <form
           onSubmit={ this.usernameSubmitHandler }
           className="username-container">
-            <h1>project_GHOST</h1>
               <input
                 type="text"
                 onChange={ this.usernameChangeHandler }
