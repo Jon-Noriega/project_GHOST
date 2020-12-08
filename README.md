@@ -11,7 +11,7 @@ We strive to connect friends through a real-time, bidirectional, event-based mes
 <h2>Inspiration</h2>
 
 <p>
-My inspiration for this project came about early days pandemic (April 2020). With lock-down restrictions easing in Denver, our friend group was eager to get out for bike rides though the city. We were missing: eachother, being outdoors, and the freedom that comes with being on your wheels. So we began messaging about daily bike rides but it was hard to rally the whole group for a set time. Often times we wouldn't hear from everyone until late afternoon, at which point some early commits had already backed out of the ride. What if there was a way to facilitate timely responses from all groups members? Cue up disappearing event messages! The core feature of swiftly was born
+My inspiration for this project came about early days pandemic (April 2020). With lock-down restrictions easing in Denver, our friend group was eager to get out for bike rides though the city. We were missing: eachother, being outdoors, and the freedom that comes with being on your wheels. So we began messaging about daily bike rides but it was hard to rally the whole group for a set time. Often times we wouldn't hear from everyone until late afternoon, at which point some early commits had already backed out of the ride. What if there was a way to facilitate more timely responses from all groups members? Cue up disappearing event messages! The core feature of swiftly was born
 </p>
 
 <h2>Technologies</h2>
