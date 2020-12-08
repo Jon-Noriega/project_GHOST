@@ -11,7 +11,7 @@ We strive to connect friends through a real-time, bidirectional, event-based mes
 <h2>Inspiration</h2>
 
 <p>
-I was inpired to create this project by the excitement of the upcoming ski season. Skiing is hands down one of my favorite ways to spend a weekend. Integrating a reservation system is also very relevant given the impact that COVID-19 has had on the local ski resorts, as they pivot torwards reservation systems as a way to control traffic and ensure they continue to deliver a best-in-class quality experience to their passholders.
+My inspiration for this project came about early days pandemic (April 2020). With lock-down restrictions easing in Denver, our friend group was eager to get out for bike rides though the city. We were missing: eachother, being outdoors, and the freedom that comes with being on your wheels. So we began messaging about daily bike rides but it was hard to rally the whole group for a set time. Often times we wouldn't hear from everyone until late afternoon, at which point some group members had already backed out of the ride. But what if there was a way to facilitate timely responses from all groups members? Cue up disappearing event messages! The core feature of swiftly was born
 </p>
 
 <h2>Technologies</h2>
