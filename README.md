@@ -1,14 +1,11 @@
 <h1>swiftly</h1>
-swiftly was designed with friends in mind. We are an event-based instant messaging app. Not just any messenging app though. Event Messages have built-in countdown timers so if you really want to join in on the event then you have to act fast before the event disappears.
+swiftly was designed with getting friends together in short order. We are an event-based instant messaging app. Event Messages come equipped with built-in countdown timers. If you really want to join in on the event then you have to act fast before the event disappears.
 <br></br>
 <h2>General Info</h2>
 <p>
-We are a community of skiers/snowboarders first! Secondly, we're a platform where passholders can reserve priority access at their favorite US-Rockies ski resorts. :blue_heart:
- 
-Our mission is to:
+We strive to connect friends through a real-time, bidirectional, event-based communication messaging platform. Don't wait too long though, you might miss your opportunity to join in on the fun if you dont click to join before the event message disappears.
 
-<li>Facilitate connection amongst community members of each ski pass (Ikon/Epic).</li>
-<li>Become the go-to platform for ensuring the community locks in their priority access through our reservation system.</li>
+:blue_heart:
 </p>
 
 <h2>Inspiration</h2>
