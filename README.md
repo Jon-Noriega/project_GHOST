@@ -1,5 +1,5 @@
 <h1>swiftly</h1>
-Rally your friends, select from one of the US-Rockies' many world-reknown ski resorts, and book your priority reservation dates.
+swiftly was designed with friends in mind. We are an event-based instant messaging app. Not just any messenging app though. Event Messages have built-in countdown timers so if you really want to join in on the event then you have to act fast before the event disappears.
 <br></br>
 <h2>General Info</h2>
 <p>
