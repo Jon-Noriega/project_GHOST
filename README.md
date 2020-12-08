@@ -40,12 +40,12 @@ You are now ready to start using the first iteration of swiftly.<br>
 
 <h2>Instructions</h2>
 <ol>
- <li>Sign on on the Home page with your username</li>
- <li>Begin texting your friends by keying in your message in the text message input field</li>
- <li>Organize an event by clicking on the on the "event" modal button</li>
- <li>Within the event message form, enter in your three event details: 1. Event Name 2. Meetup Location 3. Departure Time</li>
- <li>Share your event with friends by clickming on "Submit"</li>
- <li>On the receiving end of a shared event message? Click on the flashing event message to join, before the timer expires</li>
+ <li>Sign in on the Home page with your username.</li>
+ <li>Begin texting your friends by keying your message within the "text message" input field.</li>
+ <li>Organize an event by clicking on the on the "event" modal button.</li>
+ <li>Within the event message form, enter in your three event details: 1. Event Name 2. Meetup Location 3. Departure Time.</li>
+ <li>Share your event with friends by clickming on "Submit".</li>
+ <li>On the receiving end of a shared event message? Click on the flashing event message to join, before the timer expires.</li>
 
 </ol>
 
