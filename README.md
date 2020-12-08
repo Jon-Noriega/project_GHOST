@@ -135,9 +135,8 @@ return (
 
 <h2>Status</h2>
 
-We're looking forward to rolling-out the following features:
-<li>A user sign-in workflow with full end-to-end user auth.</li>
-<li>Availability calendars for our community members, allowing them to coordinate a ski trip based on shared availability.</li>
+We're looking forward to rolling-out the following feature:
+<li>An "Event Summary Card" to display after the event message expires. The event summary card will include the details of the event and a list of members who clicked to join.</li>
 
 <h2>Contact</h2>
 <a href="https://www.linkedin.com/in/jonathannoriega/"><img src="https://user-images.githubusercontent.com/68958970/94946276-dc7b8a00-04a9-11eb-9431-366689b9fa06.png" alt="Jon Noriega" style="width:10px;height:10px;"></a>Jon Noriega :ocean:<br>
