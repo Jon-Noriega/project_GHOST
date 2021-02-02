@@ -48,6 +48,8 @@ You are now ready to start using the first iteration of swiftly.<br>
  <li>On the receiving end of a shared event message? Click on the flashing event message to join, before the timer expires.</li>
 
 ![User_1_Text](https://user-images.githubusercontent.com/68958970/106622869-0caf6400-6542-11eb-9c5f-dc1f16bf3a73.gif)<br>
+![User_1_text](https://user-images.githubusercontent.com/68958970/106623739-ea6a1600-6542-11eb-9884-d4cd8737725f.gif)<br>
+
 
 </ol>
 
