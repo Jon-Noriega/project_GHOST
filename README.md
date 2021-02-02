@@ -47,6 +47,8 @@ You are now ready to start using the first iteration of swiftly.<br>
  <li>Share your event with friends by clicking on "Submit".</li>
  <li>On the receiving end of a shared event message? Click on the flashing event message to join, before the timer expires.</li>
 
+![User_1_Text](https://user-images.githubusercontent.com/68958970/106622869-0caf6400-6542-11eb-9c5f-dc1f16bf3a73.gif)
+
 </ol>
 
 <h2>Code Examples</h2>
