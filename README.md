@@ -49,8 +49,8 @@ You are now ready to start using the first iteration of swiftly.<br>
 
 ![user_1_text](https://user-images.githubusercontent.com/68958970/106624245-6fedc600-6543-11eb-857d-50c10fbb0e64.gif)<br>
 ![user_text_2](https://user-images.githubusercontent.com/68958970/106624859-19cd5280-6544-11eb-8e4c-f54fd33d16f5.gif)<br>
-
-
+![event_message](https://user-images.githubusercontent.com/68958970/106625497-b1cb3c00-6544-11eb-8f90-25bfdb1b3b4d.gif)<br>
+![event_message_expiration](https://user-images.githubusercontent.com/68958970/106625520-b7288680-6544-11eb-89a5-45753aedd3b9.gif)
 
 </ol>
 
